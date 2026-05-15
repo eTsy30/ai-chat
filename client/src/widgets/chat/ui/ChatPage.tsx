@@ -7,7 +7,7 @@ import { ChatMessages } from '../../chat-messages/ui/ChatMessages';
 import { ChatInput } from '../../chat-input/ui/ChatInput';
 import styles from './ChatPage.module.scss';
 
-const API_URL = 'http://localhost:3001/chat';
+const API_URL = 'https://ai-chat-server-six.vercel.app/chat';
 const MAX_RETRIES = 2;
 
 export const ChatPage: React.FC = () => {
