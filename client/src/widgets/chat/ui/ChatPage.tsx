@@ -2,9 +2,9 @@
 
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import { Message, ChatApiResponse, ChatApiError } from '../../../entities/message/model/types';
-import { WelcomeHeader } from '../../../widgets/welcome-header/ui/WelcomeHeader';
-import { ChatMessages } from '../../../widgets/chat-messages/ui/ChatMessages';
-import { ChatInput } from '../../../widgets/chat-input/ui/ChatInput';
+import { WelcomeHeader } from '../../welcome-header/ui/WelcomeHeader';
+import { ChatMessages } from '../../chat-messages/ui/ChatMessages';
+import { ChatInput } from '../../chat-input/ui/ChatInput';
 import styles from './ChatPage.module.scss';
 
 const API_URL = 'http://localhost:3001/chat';
