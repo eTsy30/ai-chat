@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# next
+.next
+out
+
+# production
+dist
+build
+
+# logs
+*.log
+
+# env
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# typescript
+*.tsbuildinfo

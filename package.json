@@ -1,0 +1,14 @@
+{
+  "name": "ai-chat",
+  "version": "1.0.0",
+  "description": "AI chat fullstack app",
+  "private": true,
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run start:dev",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
